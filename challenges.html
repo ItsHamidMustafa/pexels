@@ -8,23 +8,37 @@
     <link rel="stylesheet" href="challenges.css">
 </head>
 <body>
-     <nav class="navbar">
+    <nav class="navbar">
         <div class="navbar-item">
             <img src="pexel.png" alt="pexel logo" class="pexel-logo">
 
             <div class="input-box">
-            <select name="input-box" id="input-box" >
-                <option>Photos</option>
-                <option>Videos</option>
+                <div class="dropdownPart">
+                    <img src="picture_logo.svg" alt="pic_logo">
+            <select name="input-box" >
+                <option>photos</option>
+                <option>videos</option>
             </select>
-            <input class="input" placeholder="search for free photos"><i id="searchicon" class="fa-solid fa-magnifying-glass"></i></div>
+                </div>
+            <input class="input" placeholder="search for free photos">
+            
+        </div>
 
-            <div class="nav-container">
-            <a href="#">Explore</a>
-            <a href="#">Liscense</a>
-                <i id="dots" class="fa-solid fa-ellipsis"></i>
-                <button class="join-button">JOIN</button>
-            </div></div>
+            <div class="nav_container">
+                <select name="explore" id="Explore">
+                    <option value="#">Explore</option>
+                    <option value="#">Leaderboard</option>
+                    <option value="#">Challenges</option>
+                    <option value="#">Free Videos</option>
+                    <option value="#">Pexel blog</option>
+                </select>
+                <h1>License</h1>
+                <img src="Ellipsis.svg" alt="icon">
+                <img src="Bell.svg" alt="Notifications">
+                <img style="height: 10%; width: 10%; padding: 0; margin: 0; border: none;" class="user" src="user.svg" alt="User">
+                <button class="upload">Upload</button>
+            </div>
+        </div>
         
     </nav>
 <div class="challenges-container">  
@@ -34,7 +48,7 @@
         <a href="#">Leaderboards</a>
         <button class="challenges-button">Challenges</button></div>
     
-        <h1 class="challenges">challenges</h1><br>
+        <h1 class="challenges">Challenges</h1><br>
         <span>Photo and video competitions designed to inspire you to get out there, shoot, and share</span>
             <span>your work with the world. You might even win prizes while you do.</span>
     </div>
