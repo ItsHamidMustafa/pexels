@@ -132,9 +132,9 @@ i {
     outline: none;
 }
 
-select:hover {
+.hover1:hover {
     background: rgba(0, 0, 0, 0.1);
-
+border: none;
 }
 
 a:hover {
